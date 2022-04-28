@@ -10,7 +10,23 @@
 <body>
      <!-- Acá escribir todo el html y javascript que necesiten -->
     <main id="main">
+        <h1 class="titulo">Simulador de plazo fijo</h1>
 
+        <form id="formulario">
+            <label for="nombre" class="label">Nombre: </label>
+            <input type="text" id="nombre" name="nombre">  
+
+            <label for="monto">Monto a invertir: </label>
+            <input type="number" name="monto" id="monto" min="1000">
+            
+            <label for="dias">Cantidad de dias: </label>
+            <input type="number" name="dias" id="dias" min="30">
+            
+            <label for="dias">Reinvertir:</label>
+            <input type="checkbox" name="reinvertir" id="reinvertir">
+
+            <input type="button" value="Calcular" id="calcular">
+        </form>
 
 
 
